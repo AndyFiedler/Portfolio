@@ -678,7 +678,7 @@
 	#main {
 		margin-left: 375px;
 	}
-
+		
 		#main > section {
 			margin: 0;
 			overflow: hidden;
@@ -687,7 +687,7 @@
 			text-align: center;
 			background-image: url("images/overlay.png");
 		}
-
+			
 			#main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
@@ -716,12 +716,18 @@
 				background-size: cover;
 				background-position: center center;
 			}
-
-			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
-			}
-
+			
+			
+/* NEEEEEEED HELP HERE*********/				
+				#myVideo {
+					position: absolute;
+					left: 300px;
+					right: 0;
+					bottom: 65px;
+					min-width: 75%; 
+					min-height: 75%;
+            }
+			
 			#main > section.two {
 				background-color: #f5fafa;
 			}
